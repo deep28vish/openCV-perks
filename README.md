@@ -1,27 +1,34 @@
-#openCV-perks
+# openCV-perks
 
-This repo contains various modularity / functions provided by openCV, all file , support files, images and vids are included.
-just install openCV by typing - 'pip install opencv-python' in your anconda prompt env and play with the code given.
+## About
+This repo contains various modularity / functions provided by openCV, all files , support files, images and vids are included.
 
-LIST:
+## Requirements
+* [Opencv(cv2)](https://pypi.org/project/opencv-python/)
+* numpy
+* math
 
-01 = base_template_001.py - contains the basic structure for loading image and vid, also for saving image and vid upon prosessing
+## Contents
 
-02 = drawing on image
-03 = image operations
-04 = image arithmatic and logics
-05 = thresholding
-06 = blurring and smoothing
-07 = Morphological transformations
-08 = Edge detection and gradients
-09 = Template matching
-10 = GrabCut foregrounf Extraction
-11 = Corner detection
-12 = Feature Matching Brute Force
-13 = MOG Background Detection
-14 = Haar cascade detection
-15 = max rgb filter
-16 = object tracking
+* base_template_001.py - contains the basic structure for loading image and vid, also for saving image and vid upon prosessing
 
-more files will be added soon.
-tweak the code as you want try new combinations and enjoy.
+* drawing on image
+* image operations
+* image arithmatic and logics
+* thresholding
+* blurring and smoothing
+* Morphological transformations
+* Edge detection and gradients
+* Template matching
+* GrabCut foregrounf Extraction
+* Corner detection
+* Feature Matching Brute Force
+* MOG Background Detection
+* Haar cascade detection
+* max rgb filter
+* object tracking
+
+## Inspiration
+* [SENTDEX](https://pythonprogramming.net/)
+## Takeaway
+I often come back to these files as they have correct syntax, and just copy paste the part I need.
